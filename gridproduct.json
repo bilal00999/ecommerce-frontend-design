@@ -1,0 +1,65 @@
+[
+  {
+    "grid_image": "./assets/Image/tech/image 33.png",
+    "grid_actualprice": "99.50",
+    "grid_esstemetedprice": "1128.00",
+    "grid_rating": "7.5",
+    "grid_description": " GoPro HERO6 4K Action Camera - Black"
+  },
+  {
+    "grid_image": "./assets/Image/tech/image 22.png",
+    "grid_actualprice": "99.50",
+    "grid_esstemetedprice": "1128.00",
+    "grid_rating": "5.9",
+    "grid_description": " GoPro HERO6 4K Action Camera - Black"
+  },
+  {
+    "grid_image": "./assets/Image/tech/image 23.png",
+    "grid_actualprice": "99.50",
+    "grid_esstemetedprice": "",
+    "grid_rating": "7.5",
+    "grid_description": " GoPro HERO6 4K Action Camera - Black"
+  },
+  {
+    "grid_image": "./assets/Image/tech/image 32.png",
+    "grid_actualpeice": "99.50",
+    "grid_esstemetedprice": "1128.00",
+    "grid_rating": "7.5",
+    "grid_description": " GoPro HERO6 4K Action Camera - Black"
+  },
+  {
+    "grid_image": "./assets/Image/tech/6.png",
+    "grid_actualprice": "99.50",
+    "grid_esstemetedprice": "1128.00",
+    "grid_rating": "7.5",
+    "grid_description": " GoPro HERO6 4K Action Camera - Black"
+  },
+  {
+    "grid_image": "./assets/Image/tech/image 22.png",
+    "grid_actualprice": "99.50",
+    "grid_esstemetedprice": "",
+    "grid_rating": "7.5",
+    "grid_description": " GoPro HERO6 4K Action Camera - Black"
+  },
+  {
+    "grid_image": "./assets/Image/tech/image 34.png",
+    "grid_actualprice": "99.50",
+    "grid_esstemetedprice": "1128.00",
+    "grid_rating": "7.5",
+    "grid_description": " GoPro HERO6 4K Action Camera - Black"
+  },
+  {
+    "grid_image": "./assets/Image/tech/8.png",
+    "grid_actualprice": "99.50",
+    "grid_esstemetedprice": "1128.00",
+    "grid_rating": "7.5",
+    "grid_description": " GoPro HERO6 4K Action Camera - Black"
+  },
+  {
+    "grid_image": "./assets/Image/tech/image 33.png",
+    "grid_actualprice": "99.50",
+    "grid_esstemetedprice": "",
+    "grid_rating": "7.5",
+    "grid_description": " GoPro HERO6 4K Action Camera - Black"
+  }
+]
