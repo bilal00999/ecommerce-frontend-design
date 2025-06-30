@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ECOMMERCE WEBSITE</title>
+  </head>
+  <link rel="stylesheet" href="style.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+CU:wght@100..400&family=Quicksand:wght@300..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+    rel="stylesheet"
+  />
+  <body>
+    <!-- header start -->
+    <header class="header-alibaba">
+      <div class="logo">
+        <a href="./index.html">
+          <img src="./assets/Layout/Brand/logo-colored.png" alt="brand-logo"
+        /></a>
+      </div>
+
+      <div class="search-form">
+        <input type="text" placeholder="search" class="input-search-field" />
+        <p class="category">
+          All category
+          <i class="fa-solid fa-chevron-down"></i>
+        </p>
+        <button class="search-btn">Search</button>
+      </div>
+
+      <div class="header-actions">
+        <a href="#" class="action-icons"
+          ><i class="fa-solid fa-user"></i> Profile</a
+        >
+        <a href="#" class="action-icons"
+          ><i class="fa-solid fa-message"></i> Message</a
+        >
+        <a href="#" class="action-icons"
+          ><i class="fa-solid fa-heart"></i> Orders</a
+        >
+        <a href="./web_cart_page.html" class="action-icons"
+          ><i class="fa-solid fa-cart-shopping"></i> MyCart</a
+        >
+      </div>
+    </header>
+    <!-- header end -->
+
+    <!-- navbar start -->
+    <div class="navbar">
+      <div class="navbar-list">
+        <ul class="navbar-ul">
+          <li><i class="fa-solid fa-bars"></i></li>
+          <li>
+            <a href="./web_listview.html" class="navbar-a">All category</a>
+          </li>
+          <li><a href="#" class="navbar-a">Hot offers</a></li>
+          <li><a href="#" class="navbar-a navbar-a_1">Gift boxes</a></li>
+          <li><a href="#" class="navbar-a navbar-a_1">Project</a></li>
+          <li><a href="#" class="navbar-a navbar-a_1">Menu item</a></li>
+          <li>
+            <a href="#" class="navbar-a">Help</a>
+            <i class="fa-solid fa-chevron-down"></i>
+          </li>
+        </ul>
+      </div>
+
+      <div class="navbar-right">
+        <div class="navbar-payment">
+          <p class="payment-para">English, USD</p>
+          <i class="fa-solid fa-chevron-down"></i>
+        </div>
+
+        <div class="navbar-shipto">
+          <p class="ship-para">Ship to</p>
+          <img
+            class="dropdown-icon"
+            src="./assets/Layout1/Image/flags/DE@2x.png"
+            alt=""
+          />
+          <i class="fa-solid fa-chevron-down"></i>
+        </div>
+      </div>
+    </div>
+    <!-- navbar end -->
+
+    <!-- breadcrumb start -->
+    <div class="breadcrumb_list">
+      <a href="#" class="breadcrumb_anchor"
+        >Home <i class="fa-solid fa-chevron-right"></i
+      ></a>
+      <a href="#" class="breadcrumb_anchor"
+        >Clothings <i class="fa-solid fa-chevron-right"></i
+      ></a>
+      <a href="#" class="breadcrumb_anchor"
+        >Men's wear <i class="fa-solid fa-chevron-right"></i
+      ></a>
+      <a href="#" class="breadcrumb_anchor">Summer Clothings</a>
+    </div>
+
+    <!-- breadcrumb end -->
+
+    <!-- web list main start -->
+    <section class="web_list_main">
+      <!-- sidebar start -->
+      <aside class="sidebar_section">
+        <hr />
+        <div class="sidebar_main_heading">
+          <p>Category</p>
+          <i class="fa-solid fa-chevron-up chevron_up"></i>
+        </div>
+        <div class="sidebar_category_list">
+          <a href="#">Mobile accessory</a>
+          <a href="#">Electronics</a>
+          <a href="#">Smartphones</a>
+          <a href="#"> Modern tech</a>
+          <a href="#" id="sidebar_seeall">See all</a>
+        </div>
+        <hr />
+        <div class="sidebar_main_heading">
+          <p>Brands</p>
+          <i class="fa-solid fa-chevron-up chevron_up"></i>
+        </div>
+        <div class="sidebar_category_list sidebar_category_list2">
+          <input type="checkbox" name="checkbox" id="sidebar_checkbox1" />
+          <label class="filter" for="sidebar_checkbox1">Samsung</label>
+          <br />
+          <input type="checkbox" name="checkbox" id="sidebar_checkbox2" />
+          <label class="filter" for="sidebar_checkbox2">Apple</label>
+          <br />
+          <input type="checkbox" name="checkbox" id="sidebar_checkbox3" />
+          <label class="filter" for="sidebar_checkbox3">Huawei</label>
+          <br />
+          <input type="checkbox" name="checkbox" id="sidebar_checkbox4" />
+          <label class="filter" for="sidebar_checkbox4">Pocco</label>
+          <br />
+          <input type="checkbox" name="checkbox" id="sidebar_checkbox5" />
+          <label class="filter" for="sidebar_checkbox5">Lenovo</label>
+          <a href="#" id="sidebar_seeall">See all</a>
+        </div>
+        <hr />
+
+        <div class="sidebar_main_heading">
+          <p>Features</p>
+          <i class="fa-solid fa-chevron-up chevron_up"></i>
+        </div>
+        <div class="sidebar_category_list sidebar_category_list2">
+          <input type="checkbox" name="checkbox" id="sidebar_checkbox11" />
+          <label class="filter" for="sidebar_checkbox11">Metallic</label>
+          <br />
+          <input type="checkbox" name="checkbox" id="sidebar_checkbox22" />
+          <label class="filter" for="sidebar_checkbox22">Plastic cover</label>
+          <br />
+          <input type="checkbox" name="checkbox" id="sidebar_checkbox33" />
+          <label class="filter" for="sidebar_checkbox33">8GB Ram</label>
+          <br />
+          <input type="checkbox" name="checkbox" id="sidebar_checkbox44" />
+          <label class="filter" for="sidebar_checkbox44">Super power</label>
+          <br />
+          <input type="checkbox" name="checkbox" id="sidebar_checkbox55" />
+          <label class="filter" for="sidebar_checkbox55">Large Memory</label>
+          <a href="#" id="sidebar_seeall">See all</a>
+        </div>
+        <hr />
+
+        <div class="sidebar_main_heading">
+          <p>Price range</p>
+          <i class="fa-solid fa-chevron-up"></i>
+        </div>
+        <div class="sidebar_category_list">
+          <input
+            type="range"
+            min="0"
+            max="999999"
+            class="sidebar_price_range"
+          />
+          <div class="price_range_box">
+            <div>
+              <label for="price_range_min" id="min_price">Min</label>
+              <input
+                type="number"
+                min="0"
+                id="price_range_min"
+                placeholder="0"
+              />
+            </div>
+            <div>
+              <label for="price_range_min" id="max_price">Max</label>
+              <input
+                type="number"
+                min="0"
+                id="price_range_max"
+                placeholder="999999"
+              />
+            </div>
+          </div>
+          <button class="price_range_btn">Apply</button>
+        </div>
+        <hr />
+
+        <div class="sidebar_main_heading">
+          <p>Condition</p>
+          <i class="fa-solid fa-chevron-up chevron_up"></i>
+        </div>
+        <div class="sidebar_category_list sidebar_category_list2">
+          <input type="radio" name="checkbox" id="sidebar_checkbox111" />
+          <label class="filter" for="sidebar_checkbox111">Any</label>
+          <br />
+          <input type="radio" name="checkbox" id="sidebar_checkbox222" />
+          <label class="filter" for="sidebar_checkbox222">Refurbished</label>
+          <br />
+          <input type="radio" name="checkbox" id="sidebar_checkbox333" />
+          <label class="filter" for="sidebar_checkbox333">Brand new</label>
+          <br />
+          <input type="radio" name="checkbox" id="sidebar_checkbox444" />
+          <label class="filter" for="sidebar_checkbox444">Old items</label>
+          <a href="#" id="sidebar_seeall">See all</a>
+        </div>
+        <hr />
+
+        <div class="sidebar_main_heading">
+          <p>Ratings</p>
+          <i class="fa-solid fa-chevron-up chevron_up"></i>
+        </div>
+        <div class="sidebar_category_list sidebar_category_list2">
+          <span id="5" class="rating">
+            <input
+              id="5"
+              type="checkbox"
+              name="checkbox"
+              id="sidebar_checkbox1"
+            />
+            <span id="5" class="rating_starts">
+              <i class="fa-solid fa-star rating_5"></i>
+              <i class="fa-solid fa-star rating_5"></i>
+              <i class="fa-solid fa-star rating_5"></i>
+              <i class="fa-solid fa-star rating_5"></i>
+              <i class="fa-solid fa-star rating_5"></i>
+            </span>
+          </span>
+          <br />
+          <span id="4" class="rating">
+            <input
+              id="4"
+              type="checkbox"
+              name="checkbox"
+              id="sidebar_checkbox2"
+            />
+            <span id="4" class="rating_starts">
+              <i class="fa-solid fa-star rating_5"></i>
+              <i class="fa-solid fa-star rating_5"></i>
+              <i class="fa-solid fa-star rating_5"></i>
+              <i class="fa-solid fa-star rating_5"></i>
+              <i class="fa-solid fa-star"></i>
+            </span>
+          </span>
+          <br />
+          <span id="3" class="rating">
+            <input
+              id="3"
+              type="checkbox"
+              name="checkbox"
+              id="sidebar_checkbox3"
+            />
+            <span id="3" class="rating_starts">
+              <i class="fa-solid fa-star rating_5"></i>
+              <i class="fa-solid fa-star rating_5"></i>
+              <i class="fa-solid fa-star rating_5"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </span>
+          </span>
+          <br />
+          <span id="2" class="rating">
+            <input
+              id="2"
+              type="checkbox"
+              name="checkbox"
+              id="sidebar_checkbox4"
+            />
+            <span id="2" class="rating_starts">
+              <i class="fa-solid fa-star rating_5"></i>
+              <i class="fa-solid fa-star rating_5"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </span>
+          </span>
+          <a href="#" id="sidebar_seeall">See all</a>
+        </div>
+      </aside>
+
+      <!-- sidebar end -->
+
+      <!-- product content top start -->
+      <main class="content">
+        <div class="product_content_top">
+          <div class="content_top_left">
+            <p>12,911 items in Mobile accessory</p>
+          </div>
+          <div class="content_top_right">
+            <div class="content-right_input">
+              <input type="checkbox" id="content_top_checkbox" />
+              <label for="content_top_checkbox">Verified only</label>
+            </div>
+            <div class="content_right_para">
+              <p>Featured <i class="fa-solid fa-chevron-down"></i></p>
+            </div>
+            <div class="content_top_icons">
+              <div class="grid_icon">
+                <i class="fas fa-th-large"></i>
+              </div>
+              <div class="list_icon"><i class="fas fa-list"></i></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- product content top end -->
+
+        <!-- filter section start -->
+        <div id="selectedFilters">
+          <!-- <p class="clear_all_filter">clear all filter</p> -->
+        </div>
+
+        <!-- filter section end -->
+
+        <!-- product main content list start -->
+        <div class="product_main_content"></div>
+
+        <div class="pages">
+          <div class="show">
+            <select name="pageslist" id="pageslists">
+              <option value="Show1">Show 1</option>
+              <option value="Show2">Show 2</option>
+              <option value="Show3">Show 3</option>
+              <option value="Show4">Show 4</option>
+              <option value="Show5">Show 5</option>
+              <option value="Show6">Show 6</option>
+              <option value="Show7">Show 7</option>
+              <option value="Show8">Show 8</option>
+              <option value="Show9">Show 9</option>
+              <option value="Show10">Show 10</option>
+            </select>
+          </div>
+          <div class="numbers">
+            <i class="fa-solid fa-chevron-left numbers_data"></i>
+            <p class="numbers_data">1</p>
+            <p class="numbers_data">2</p>
+            <p class="numbers_data">3</p>
+            <i class="fa-solid fa-chevron-right numbers_data1"></i>
+          </div>
+        </div>
+      </main>
+      <!-- product main content list end -->
+    </section>
+
+    <!--list product template start -->
+    <template class="product_template">
+      <div class="product_content_item">
+        <div class="p_c_item_left">
+          <img src="" alt="" class="p_c_item_img" />
+        </div>
+        <div class="p_c_i_mid">
+          <div class="p_c_item_details">
+            <p class="p_c_i_d_para1"></p>
+          </div>
+          <div class="p_c_i_d_price">
+            <p class="p_c_actual_price"></p>
+            <p class="p_c_esstemeted_price"></p>
+          </div>
+
+          <div class="p_c_i_extra_detail">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <p class="p_c_i_rating"></p>
+            <p class="p_c_i_orders"></p>
+            <p class="p_c_i_shipping">Free Shipping</p>
+          </div>
+          <p class="p_c_i_description"></p>
+          <a href="./web_detail.html" class="P_c_i_seedetails">View details</a>
+        </div>
+        <div class="p_c_i_right"><i class="fa-regular fa-heart"></i></div>
+      </div>
+    </template>
+    <!--list product_template end -->
+
+    <!-- grid product_template start-->
+    <template class="grid_product_template">
+      <div class="gird_products">
+        <div class="grid_product_image">
+          <img src="" alt="" class="grid_image" />
+        </div>
+        <div class="grid_product_info">
+          <div class="product_info">
+            <div class="grid_product_price">
+              <p class="grid_p_actual_price"></p>
+              <p class="grid_p_esstemeted_price"></p>
+            </div>
+
+            <div class="grid_p_extra_detail">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <p class="p_c_i_rating"></p>
+            </div>
+            <p class="grid_p_description"></p>
+          </div>
+          <div class="grid_p_like_btn">
+            <i class="fa-regular fa-heart"></i>
+          </div>
+        </div>
+      </div>
+    </template>
+
+    <!-- grid product_template end -->
+
+    <!-- web list main start -->
+
+    <!-- our news letter start -->
+    <section class="our_news_letter">
+      <h2 class="new_letter_h2">Subscribe on our newsletter</h2>
+      <p class="new_letter_para">
+        Get daily news on upcoming offers from many suppliers all over the world
+      </p>
+      <input type="Email" placeholder=" Email" class="news_letter_email" />
+      <button class="news_letter_btn">Subscribe</button>
+    </section>
+
+    <!-- our news letter end -->
+
+    <!-- footer start -->
+    <footer class="footer-section grid-6">
+      <!-- <div class="footer_main"> -->
+      <div class="footer-1">
+        <img
+          src="./assets/Layout/Brand/logo-colored.png"
+          alt="brand-logo"
+          class="logo"
+        />
+        <p class="f-1-p">
+          Best information about the company gies here but now lorem ipsum is
+        </p>
+        <div class="f-1-icons">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-square-twitter"></i>
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-square-instagram"></i>
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+      </div>
+
+      <div class="footer-2">
+        <p class="f-2-p">About</p>
+        <a href="#" class="f-2-a">About Us</a>
+        <a href="#" class="f-2-a">Find store</a>
+        <a href="#" class="f-2-a">Categories</a>
+        <a href="#" class="f-2-a">Blogs</a>
+      </div>
+
+      <div class="footer-3">
+        <p class="f-2-p">Partnership</p>
+        <a href="#" class="f-2-a">About Us</a>
+        <a href="#" class="f-2-a">Find store</a>
+        <a href="#" class="f-2-a">Categories</a>
+        <a href="#" class="f-2-a"> Blogs</a>
+      </div>
+      <div class="footer-4">
+        <p class="f-2-p">Information</p>
+        <a href="#" class="f-2-a">Help Center</a>
+        <a href="#" class="f-2-a">Money Refund</a>
+        <a href="#" class="f-2-a">Shipping</a>
+        <a href="#" class="f-2-a">Contact us</a>
+      </div>
+      <div class="footer-5">
+        <p class="f-2-p">For users</p>
+        <a href="#" class="f-2-a">Login</a>
+        <a href="#" class="f-2-a">Register</a>
+        <a href="#" class="f-2-a">Settings</a>
+        <a href="#" class="f-2-a">My Orders</a>
+      </div>
+      <div class="footer-6">
+        <p class="f-2-p">Get app</p>
+        <img
+          class="f-6-img"
+          src="./assets/Layout/Misc/market-button.png"
+          alt=""
+        />
+        <img class="f-6-img" src="./assets/Layout/Misc/Group.png" alt="" />
+      </div>
+      <!-- </div> -->
+    </footer>
+    <!-- footer end -->
+
+    <!-- copy right -->
+    <div class="copyright">
+      <div class="copyright-left">
+        <p class="c-l-p">&copy; 2025 Ecommerce</p>
+      </div>
+
+      <div class="copyright-right">
+        <span>
+          <img
+            class="dropdown-icon"
+            src="./assets/Layout1/Image/flags/US@2x.png"
+            alt=""
+          />
+        </span>
+        <p class="copyright-para">English</p>
+        <span>
+          <img
+            class="dropdown-icon"
+            src="./assets/Layout/Form/input-group/Icon/control/Vector2.png"
+            alt=""
+        /></span>
+      </div>
+    </div>
+    <!-- copyright end -->
+    <script type="module" src="app.js" defer></script>
+  </body>
+</html>
