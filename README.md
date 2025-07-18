@@ -1,3 +1,5 @@
+## live Preview : https://reliable-scone-ebd1a6.netlify.app/
+
 ECOMMERCE WEBSITE
 This is an e-commerce website built with HTML, CSS, and JAVASCRIPT featuring a responsive design for various screen sizes.
 
